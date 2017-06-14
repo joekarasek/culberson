@@ -29,44 +29,37 @@
   }
 
   .slide1 {
-    .slide__title {
-      color: #2c2340;
-      font-family: $ff-dancing;
-      line-height: 0.8;
-      font-weight: 400;
-      margin-bottom: 0;
-
-      @include font-size(44px, 41px);
-    }
-
-    .slide__title-smile {
-      color: #016e92;
-      font-family: $ff-raleway;
-      font-weight: 700;
-      margin-bottom: 60px;
-      line-height: 1;
-      text-shadow: 4px 3px 13px #fff;
-
-      @include font-size(95px, 76px);
-    }
+    //.slide__title {
+    //  color: #2c2340;
+    //  font-family: $ff-dancing;
+    //  line-height: 0.8;
+    //  font-weight: 400;
+    //  margin-bottom: 0;
+    //
+    //  @include font-size(44px, 41px);
+    //}
+    //
+    //.slide__title-smile {
+    //  color: #016e92;
+    //  font-family: $ff-raleway;
+    //  font-weight: 700;
+    //  margin-bottom: 60px;
+    //  line-height: 1;
+    //  text-shadow: 4px 3px 13px #fff;
+    //
+    //  @include font-size(95px, 76px);
+    //}
 
     .slide__copy {
-      color: #332a46;
-      font-family: $ff-lato;
+      color: #fff;
+      font-family: $ff-raleway;
       margin-top: 5px;
       margin-bottom: 15px;
       line-height: 1;
-      font-weight: 400;
+      font-weight: 600;
 
-      @include font-size(33px, 32px, 24px, 24px, 24px);
+      @include font-size(28px, 26px, 24px, 24px, 24px);
     }
-
-    //Align to bottom of slide
-    //.row {
-    //  transform: translateY(-100%);
-    //  top: 100%;
-    //  padding-bottom: 15px;
-    //}
   }
 
   .slide2 {
@@ -84,18 +77,18 @@
     }
 
     .copy {
-      color: #332a46;
+      font-family: $ff-carme;
+      color: #fff;
       font-weight: 700;
       line-height: 1.2;
       margin-bottom: 25px;
 
-      @include font-size(29px, 23px, 18px, 20px, 19px);
+      @include font-size(20px, 18px, 18px, 20px, 19px);
     }
   }
 
   .slide3 {
     .title--no-insure {
-      font-family: $ff-raleway;
       color: #016e92;
       margin-bottom: 5px;
       line-height: 1;
@@ -106,7 +99,6 @@
 
     .title--sub {
       color: #2c2340;
-      font-family: $ff-dancing;
       line-height: 1;
       margin-bottom: 40px;
 
@@ -114,11 +106,13 @@
     }
 
     .preventative-copy {
-      font-family: $ff-lato;
-      color: #2c2340;
+      font-family: $ff-raleway;
+      font-weight: 600;
+      color: #fff;
       line-height: 1;
+      padding-top: 10px;
 
-      @include font-size(42px, 36px);
+      @include font-size(28px, 24px);
     }
 
     .btn {
