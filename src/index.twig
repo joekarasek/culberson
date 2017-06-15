@@ -15,7 +15,7 @@
     }
     %}
 
-    {% include 'organisms/marquee.twig' %}
+    {#{% include 'organisms/marquee.twig' %}#}
 
     <!-- Content
   ============================================= -->
@@ -26,6 +26,8 @@
             id: 'id="cta-one"',
             existingPatients: true
         } %}
+
+        {% include 'organisms/nav-grid.twig' %}
 
         {% include 'organisms/about.twig' %}
 

@@ -2,7 +2,7 @@ a.btn,
 button.btn {
   font-family: $ff-dosis;
   font-weight: 700 !important;
-  background-color: #33addd;
+  background-color: #4BCC73;
   color: #fff;
   border-radius: 30px;
   border: solid 2px #fff;
@@ -14,15 +14,15 @@ button.btn {
 
   &:hover,
   &:focus {
-    background-color: darken(#33addd, 15%);
+    background-color: darken(#4BCC73, 15%);
     //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.46);
     transition: all 0.3s ease;
     text-decoration: none;
   }
 
   &.btn--style-two {
-    background-color: #4bcc73;
-    border-color: #fff;
+    background-color: #08519F;
+    border: none;
     color: #fff;
     //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
 
@@ -34,7 +34,15 @@ button.btn {
   }
 
   &.btn--style-three {
-    border-color: #fff;
+    background-color: #9ed5af;
+    color: #1a202a;
+    border-color: #1A202A;
+
+    &:hover,
+    &:focus {
+      background-color: darken(#9ED5AF, 15%);
+      //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.46);
+    }
   }
 
   &.shadowed {
