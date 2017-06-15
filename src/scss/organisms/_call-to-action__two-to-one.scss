@@ -1,6 +1,6 @@
 /// Call to Action Two to One Layout
 .cta__two-to-one {
-  background-color: #1c1c60;
+  background-color: #fff;
   background-position: center;
   z-index: 100;
   position: relative;
@@ -26,7 +26,8 @@
   }
 
   .flex--item {
-    width: 33%;
+    width: 45%;
+    padding: 0 15px;
 
     @media screen and (max-width: $width-md) {
       width: 100%;
@@ -41,28 +42,27 @@
 
   .new-patient {
     text-align: left;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 30px;
 
     .text {
-      color: #fff;
+      color: #1a202a;
       margin-bottom: 0;
       font-weight: 400;
     }
 
     &-number {
-      color: #fff;
+      color: #1a202a;
       font-weight: 700;
       margin-bottom: 0;
       padding-top: 5px;
       padding-bottom: 10px;
       line-height: 1;
-      font-family: $ff-lato;
+      font-family: $ff-carme;
 
       @include font-size(36px, 33px, 30px, 28px, 28px);
 
       a {
-        @include link-color(#fff);
+        @include link-color(#1a202a);
 
         &:hover {
           text-decoration: none;
@@ -84,10 +84,10 @@
 
   .btn {
     &--wrapper {
-      padding: 5px 15px;
+      padding: 5px 30px;
       margin-right: -1px;
-      border-left: 2px solid #fff;
-      text-align: left;
+      border-right: 2px solid #1a202a;
+      text-align: right;
 
       @media screen and (max-width: $width-md) {
         padding-bottom: 0;
@@ -101,7 +101,7 @@
   }
 
   .existing-patient {
-    color: #fff;
+    color: #1a202a;
     line-height: 1;
     font-size: 16px;
     margin-bottom: 0;
@@ -113,7 +113,7 @@
     .phone-number--existing {
       font-weight: 700;
 
-      @include link-color(#fff);
+      @include link-color(#1a202a);
 
       @media (max-width: 992px) {
         font-size: 20px;
@@ -126,19 +126,8 @@
   }
 
   .btn--wrapper {
-    order: 1;
-
     @media screen and (max-width: $width-md) {
-      order: 0;
       padding-bottom: 10px;
-    }
-  }
-
-  .new-patient {
-    text-align: right;
-
-    @media screen and (max-width: $width-md) {
-      text-align: center;
     }
   }
 }
