@@ -8,7 +8,6 @@
 
     &__main {
       color: #2c2340;
-      font-family: $ff-raleway;
       font-weight: 900;
       margin-bottom: 0;
       line-height: 1;
@@ -18,13 +17,18 @@
   //main slab
   &__doctor-slab {
     padding-top: 30px;
+    background-color: #e4f3e9;
+
 
     @media (min-width: 768px) {
-      background-image: url('/assets/langan-bio.jpg');
-      background-size: cover;
+      background-image: url('/assets/culberson-bio.jpg');
+      background-size: auto;
       background-repeat: no-repeat;
-      background-position: 20% center;
+      background-position: -130px 0;
       padding-bottom: 60px;
+    }
+    @media (min-width: 1200px) {
+      background-position: 0 0;
     }
   }
 
@@ -34,11 +38,11 @@
 
     @media (min-width: 768px) {
       width: 50%;
-      padding-bottom: 70px;
+      padding-bottom: 15px;
     }
 
     @media (min-width: 992px) {
-      width: 60%;
+      width: 50%;
       padding-bottom: 30px;
     }
 
@@ -48,11 +52,17 @@
     }
 
     &__name {
-      color: #007c9f;
+      color: #1a202a;
       font-family: $ff-raleway;
-      font-weight: 700;
+      font-weight: 900;
+      font-style: italic;
+      margin-bottom: 0;
+      line-height: 1.2;
+    }
 
-      @include h4();
+    &__byline {
+      font-family: $ff-dosis;
+      font-weight: 700;
     }
 
     &__copy {
@@ -85,60 +95,60 @@
       color: #fff;
     }
   }
-
-  .team-card {
-    padding: 0 10px;
-
-    &__image {
-      display: block;
-      margin-bottom: 15px;
-    }
-
-    &__name {
-      display: block;
-      font-weight: 700;
-      margin-bottom: 5px;
-      line-height: 1;
-
-      @include font-size(24px, 22px, 20px, 20px, 20px);
-      @include link-color(#fff);
-    }
-
-    &__byline {
-      display: block;
-      font-size: 18px;
-      margin-bottom: 5px;
-      line-height: 1;
-
-      @include link-color(#fff);
-    }
-
-    &__read-more {
-      display: block;
-      text-decoration: underline;
-      font-style: italic;
-      margin-bottom: 5px;
-      line-height: 1;
-
-      @include link-color(#fff);
-    }
-
-    @media screen and (min-width: 768px) {
-      &:hover {
-        .team-card__image {
-          @include hover-plus();
-        }
-
-        .team-card__name {
-          text-decoration: underline;
-        }
-
-        .team-card__byline {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
+  //
+  //.team-card {
+  //  padding: 0 10px;
+  //
+  //  &__image {
+  //    display: block;
+  //    margin-bottom: 15px;
+  //  }
+  //
+  //  &__name {
+  //    display: block;
+  //    font-weight: 700;
+  //    margin-bottom: 5px;
+  //    line-height: 1;
+  //
+  //    @include font-size(24px, 22px, 20px, 20px, 20px);
+  //    @include link-color(#fff);
+  //  }
+  //
+  //  &__byline {
+  //    display: block;
+  //    font-size: 18px;
+  //    margin-bottom: 5px;
+  //    line-height: 1;
+  //
+  //    @include link-color(#fff);
+  //  }
+  //
+  //  &__read-more {
+  //    display: block;
+  //    text-decoration: underline;
+  //    font-style: italic;
+  //    margin-bottom: 5px;
+  //    line-height: 1;
+  //
+  //    @include link-color(#fff);
+  //  }
+  //
+  //  @media screen and (min-width: 768px) {
+  //    &:hover {
+  //      .team-card__image {
+  //        @include hover-plus();
+  //      }
+  //
+  //      .team-card__name {
+  //        text-decoration: underline;
+  //      }
+  //
+  //      .team-card__byline {
+  //        text-decoration: underline;
+  //      }
+  //    }
+  //  }
+  //}
 
   //Video Slab
   &__video-slab {

@@ -1,32 +1,32 @@
 <section id="section-about" class="clearfix about">
 
     <div class="about__doctor-slab">
-        <div class="heading center">
-            <h2 class="heading__main">MEET THE DOCTOR</h2>
-        </div>
+        {#<div class="heading center">#}
+            {#<h2 class="heading__main">MEET THE DOCTOR</h2>#}
+        {#</div>#}
         <div class="container">
-            <div class="doctor__wrapper">
-                <div class="doctor">
-                    <h3 class="doctor__name">Adam J. Langan, DDS</h3>
-                    <p class="doctor__copy">Dr. Adam Langan received a bachelor of science degree in biology with a minor in
-                        biochemistry from the University of Nebraska–Lincoln and later earned his doctorate from the University
-                        of Nebraska Medical Center College of Dentistry, where he graduated with distinction. Each year, he
-                        participates in world-class continuing education in cosmetic dentistry, implants, and dental technology
-                        to ensure that every restoration is carefully crafted and precise.</p>
-                    <p class="doctor__copy">Dr. Langan is married to Sarah, an optometrist, and they are the proud parents of
-                        Evelyn and Bennett. They also have a dog named Ruby. Dr. Langan’s hobbies include golfing, playing
-                        guitar, and doing yard work.</p>
+            <div class="row">
+                <div class="doctor__wrapper">
+                    <div class="doctor">
+                        <h2 class="doctor__name">Casey Culberson, DDS</h2>
+                        <h3 class="doctor__byline">General Dentist</h3>
+                        <p class="doctoc__copy">The minute you walk through the door, you will know you've come to the right
+                            place. By combining advanced dental technology with a gentle, friendly style, Dr. Casey
+                            Culberson and his team will make you and your family more comfortable than you ever thought
+                            possible.</p>
+                        <p class="doctoc__copy">The office's spa-like atmosphere and warm, inviting staff members will make
+                            you feel right at home. And Dr. Culberson's use of the latest advances in technology, including
+                            digital x-rays, metal-free fillings, and Zoom! whitening will help you maintain a beautiful
+                            smile.</p>
+                        <p class="doctoc__copy">Dr. Culberson is a Mill Creek native and doctoral graduate of University of
+                            Washington School of Dentistry. He and his wife Alyssa have two children.</p>
+                        {% include 'molecules/associations__carousel.twig' %}
+                    </div>
                 </div>
             </div>
         </div>
         <div class="doctor__mobile-image">
-            <img src="assets/langan-bio-mobile.jpg" alt="{{  mainDoctor }}">
-        </div>
-    </div>
-
-    <div class="about__associations-slab">
-        <div class="container">
-            {% include 'molecules/associations__carousel.twig' %}
+            <img src="assets/culberson-bio.jpg" alt="{{  mainDoctor }}">
         </div>
     </div>
 
@@ -42,11 +42,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="about__team-slab">
-        <h2 class="about__team-slab__title center">MEET THE TEAM</h2>
-        {% include 'molecules/team__carousel.twig' %}
     </div>
 
 </section>
