@@ -11,14 +11,6 @@
     },
     {
       "doubleWide": false,
-      "title": "Cosmetic Dentistry",
-      "titleFull": "Cosmetic Dentisty",
-      "image": "cosmetic.jpg",
-      "modalTarget": "cosmetic",
-      "text": ["Dental aesthetic restoration is one of the most cost-effective ways to improve your appearance. A beautiful, bright, healthy smile will increase self-confidence and overall life satisfaction, and make you look years younger. Crowns, veneers, tooth-colored porcelain fillings, and bonding are common techniques for dental restoration. We will recommend the best option for your case to restore your tooth to its full functionality and give you the beautiful smile you deserve.​"]
-    },
-    {
-      "doubleWide": false,
       "title": "Mercury Free",
       "titleFull": "Mercury-Free Restorations",
       "image": "mercury-free.jpg",
@@ -36,15 +28,15 @@
     },
     {
       "doubleWide": false,
-      "title": "Clear Tray Orthodontics",
-      "titleFull": "Clear Tray Orthodontics",
-      "image": "clear-orthodontics.jpg",
-      "modalTarget": "clear",
-      "text": ["These “invisible” aligners are the latest in orthodontic technology for adults and teens. Straight teeth and a revitalized smile no longer need to come from a mouth full of unattractive wire and bracket braces. Enhancing self-esteem and physical confidence, invisible braces offer an esthetic and barely visible alternative to conventional wire/bracket braces."]
+      "title": "Cosmetic Dentistry",
+      "titleFull": "Cosmetic Dentistry",
+      "image": "cosmetic.jpg",
+      "modalTarget": "cosmetic",
+      "text": ["Cosmetic dentistry is one of the most cost-effective ways to improve your appearance. A beautiful, bright, healthy smile will increase self-confidence and overall life satisfaction. Cosmetic dentistry includes things like tooth-colored restorations, dental implants, and crowns. We have many options, so please call us today!"]
     },
     {
       "doubleWide": false,
-      "title": "CEREC One-Visit Crowns",
+      "title": "One-Visit Crowns",
       "titleFull": "CEREC® One-Visit Crowns",
       "image": "cerec.jpg",
       "modalTarget": "cerec",
@@ -57,7 +49,7 @@
       "titleMobil": "Apnea",
       "titleFull": "Sleep Apnea Treatment",
       "image": "apnea.jpg",
-      "modalTarget": "apnea",
+      "modalTarget": "sleep",
       "text": ["Obstructive sleep apnea occurs when the airway completely collapses, blocking airflow into the lungs. The harder one tries to breathe, the tighter the airway seals. This airway obstruction persists until the brain partially awakens the person, unconsciously closing the jaw and returning the tongue and throat to a normal position.",
       "We offer effective, nonsurgical relief from sleep apnea and other sleep-related disorders—including snoring. Ask us how you can get the restful, healthy sleep you’ve been missing."]
     },
@@ -69,5 +61,31 @@
       "modalTarget": "xray",
       "text": ["Our use of digital x-ray technology reduces your radiation exposure and eliminates the use of chemicals. It’s better for you and the  environment.",
         "It's also easy for you to see what the doctor sees. Your digital x-ray can be seen on a computer screen located next to your dental chair. This helps you understand your needs and make informed choices about your treatment."]
+    },
+    {
+      "doubleWide": false,
+      "title": "Dental Implants",
+      "titleFull": "Dental Implants",
+      "image": "digital-xray.jpg",
+      "modalTarget": "implants",
+      "text": ["Dental implants are a great option for replacing missing teeth, improving chewing ability, eliminating bridges, and replacing dentures.",
+        "Several implants may provide a base for a series of artificial teeth known as a fixed bridge. Implants can even be used to secure a full set of removable dentures for people who have no remaining natural teeth."]
+    },
+    {
+      "doubleWide": false,
+      "title": "Invisalign®",
+      "titleFull": "Invisalign®",
+      "image": "digital-xray.jpg",
+      "modalTarget": "invisalign",
+      "text": ["These “invisible” aligners are the latest in orthodontic technology for adults and teens. Straight teeth and a revitalized smile no longer need to come from a mouth full of unattractive wire and bracket braces. Enhancing self-esteem and physical confidence, invisible braces offer an esthetic and barely visible alternative to conventional wire/bracket braces.",
+        "Get the smile you've always wanted with Invisalign® Orthodontics."]
+    },
+    {
+      "doubleWide": false,
+      "title": "Cosmetic Dentures",
+      "titleFull": "Cosmetic Dentures",
+      "image": "digital-xray.jpg",
+      "modalTarget": "dentures",
+      "text": ["Do you wear dentures or have a mouthful of missing or failing teeth? Eat what you want again, smile, laugh, and look and feel years younger with our implant-supported dentures. The All-on-4® dental implant procedure will allow you to get your implants and implant-supported replacement teeth in one day."]
     }
   ]}

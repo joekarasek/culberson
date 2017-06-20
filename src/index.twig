@@ -48,11 +48,11 @@
 
         {% include 'molecules/cta__two-to-one.twig' with {
             id: 'id="cta-three"',
-            existingPatients: false,
+            existingPatients: true,
             shadow: false
         } %}
 
-        {% include 'organisms/services.twig' %}
+        {% include 'organisms/services--grid.twig' %}
 
         {% include 'organisms/forms.twig' %}
 
