@@ -1,21 +1,29 @@
 #section-reviews {
-  background-image: url('/assets/reviews-bg.png');
+  background-image: url('/assets/review-bkgd.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom;
-  padding-bottom: 30px;
-  border-bottom: solid #2d2d6c 4px;
+  background-position: center top;
+  padding-bottom: 45px;
+  border-top: solid #fff 4px;
 
   .heading {
     padding-top: 0;
     text-align: center;
     margin-top: $spacing-md;
     margin-bottom: 10px;
-    color: #2c2340;
-  }
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.45);
+    font-family: $ff-raleway;
+    font-style: italic;
+    font-weight: 900;
 
-  .row {
-    padding-bottom: $spacing-lg;
+    &__byline {
+      color: #fff;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.45);
+      font-family: $ff-dosis;
+      font-style: normal;
+      font-weight: 700;
+    }
   }
 
   .review-wrapper > div:last-child {
@@ -26,7 +34,7 @@
     width: 100%;
   }
 
-  @include birdeye-footer(#2c2340);
+  @include birdeye-footer(#fff, true);
 
   //Video Slab
   .reviews__video-slab {
