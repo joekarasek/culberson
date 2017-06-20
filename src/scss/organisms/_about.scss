@@ -19,7 +19,6 @@
     padding-top: 30px;
     background-color: #e4f3e9;
 
-
     @media (min-width: 768px) {
       background-image: url('/assets/culberson-bio.jpg');
       background-size: auto;
@@ -27,6 +26,7 @@
       background-position: -130px 0;
       padding-bottom: 60px;
     }
+
     @media (min-width: 1200px) {
       background-position: 0 0;
     }

@@ -1,5 +1,5 @@
 /// Call to Action Two to One Layout
-.cta__two-to-one {
+.cta {
   background-color: #fff;
   background-position: center;
   z-index: 100;
@@ -7,8 +7,13 @@
   padding-bottom: 30px;
   padding-top: 30px;
 
+  //TODO refactor shadow to be BEM modifier in classes
   &.shadow {
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  &--background-two {
+    background-color: #e4f3e9;
   }
 
   .flex--wrapper {
