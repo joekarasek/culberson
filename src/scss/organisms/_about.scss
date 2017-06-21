@@ -21,10 +21,14 @@
 
     @media (min-width: 768px) {
       background-image: url('/assets/culberson-bio.jpg');
-      background-size: auto;
+      background-size: auto 100%;
       background-repeat: no-repeat;
-      background-position: -130px 0;
+      background-position: -230px 0;
       padding-bottom: 60px;
+    }
+
+    @media (min-width: 992px) {
+      background-position: -140px 0;
     }
 
     @media (min-width: 1200px) {
@@ -47,8 +51,10 @@
     }
 
     &__wrapper {
-      display: flex;
-      justify-content: flex-end;
+      @media (min-width: 768px) {
+        display: flex;
+        justify-content: flex-end;
+      }
     }
 
     &__name {

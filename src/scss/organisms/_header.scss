@@ -84,6 +84,12 @@
 
   @media screen and (max-width: $width-md) {
     #logo {
+      a {
+        text-align: right;
+        margin-left: auto;
+        padding-right: 30px;
+      }
+
       img {
         margin-right: auto;
         padding: $spacing-xs;
@@ -92,8 +98,8 @@
     }
 
     #primary-menu-trigger {
-      right: 0;
-      left: auto;
+      right: auto;
+      left: 0;
       color: #343b42;
     }
   }
