@@ -50,7 +50,6 @@
 
   &__doctor {
     color: #00595b;
-    font-family: $ff-raleway;
     font-weight: 900;
     font-size: 28px;
     line-height: 1;
@@ -67,18 +66,18 @@
   }
 
   &__address {
-    color: #1c1836;
+    color: #1a202a;
     font-size: 20px;
   }
 
   &__map-link {
-    color: #00595b;
+    color: #08519f;
     text-decoration: underline;
-    font-size: 18px;
+    font-size: 19px;
   }
 
   &__new-patient-text {
-    color: #000;
+    color: #1a202a;
     font-size: 18px;
     margin-bottom: 0;
     line-height: 1;
@@ -88,43 +87,58 @@
     display: block;
     font-size: 44px;
     font-weight: 700;
-    font-family: $ff-lato;
-    color: #007a7c;
-    margin-bottom: 5px;
+    color: #1a202a;
+    margin-bottom: 15px;
     line-height: 1;
 
-    @include font-size(40px, 36px, 32px, 36px, 32px);
+    @include font-size(38px, 36px, 32px, 36px, 32px);
 
     &:hover {
-      color: #007a7c;
+      color: #1a202a;
       text-decoration: none;
     }
   }
 
   &__existing-patient-text {
-    color: #1c1836;
+    color: #1a202a;
     margin-top: 15px;
     line-height: 1;
-    margin-bottom: 15px;
-    font-size: 18px;
+    margin-bottom: 5px;
+    font-size: 20px;
   }
 
   &__existing-patient-number {
-    color: #1c1836;
+    color: #1a202a;
+
+    @include font-size(28px, 26px, 24px, 22px, 22px);
 
     &:hover {
-      color: #1c1836;
+      color: #1a202a;
       text-decoration: none;
     }
   }
 
-  &__btn {
+  &__fax-text {
+    color: #1a202a;
     margin-top: 20px;
-    margin-bottom: 20px;
+    line-height: 1;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+
+  &__fax-number {
+    color: #1a202a;
+
+    @include font-size(28px, 26px, 24px, 22px, 22px);
+  }
+
+  &__btn {
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   &__welcoming-patients {
-    color: #1c1836;
+    color: #1a202a;
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 21px;
@@ -147,7 +161,6 @@
 
     h5 {
       font-weight: 900;
-      font-family: $ff-raleway;
       font-size: 28px;
       color: #00595b;
       text-transform: uppercase;
@@ -156,7 +169,6 @@
     p {
       color: #1c1836;
       font-size: 18px;
-      font-family: $ff-lato;
       line-height: 1;
       margin: 0 auto;
     }

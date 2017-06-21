@@ -1,20 +1,21 @@
 
-#google-map5 {
-  height: 200px;
+.google-map,
+.google-map iframe {
+  height: 200px !important;
 
   @media (min-width: $width-xs) {
-    height: 250px;
+    height: 250px !important;
   }
 
   @media (min-width: $width-sm) {
-    height: 730px;
+    height: 510px !important;
   }
 
   @media (min-width: $width-md) {
-    height: 730px;
+    height: 550px !important;
   }
 
   @media (min-width: $width-lg) {
-    height: 750px;
+    height: 550px !important;
   }
 }
