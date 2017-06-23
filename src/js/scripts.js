@@ -27,7 +27,7 @@
     }
   });
   HelloWorldDevsTysonSteele.associationCarousel('.js-associations-carousel', {
-    items: 3,
+    items: 2,
     loop: true,
     autoplay: true,
     autoplaySpeed: 500,
@@ -39,6 +39,9 @@
     margin: 40,
     slideBy: 1,
     responsive: {
+      550: {
+        items: 3
+      },
       768: {
         items: 2
       },

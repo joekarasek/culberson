@@ -45,6 +45,19 @@ button.btn {
     }
   }
 
+  &.btn--style-four {
+    background-color: #33addd;
+    border-color: #fff;
+    color: #fff;
+    //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
+
+    &:hover,
+    &:focus {
+      background-color: darken(#33addd, 15%);
+      //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.46);
+    }
+  }
+
   &.shadowed {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }

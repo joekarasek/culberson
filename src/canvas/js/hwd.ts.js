@@ -7,8 +7,10 @@ var HelloWorldDevsTysonSteele = (function($,_) {
    * @example HWD.noOrphans('h1,h2,h3,h4,h5,h6,li,p', '.allow-orphan');
    */
   var noOrphans = function (selectors, exceptions) {
-    $(selectors).not(exceptions).each(function () {
-      $(this).html($(this).html().replace(/\s([^\s<]{0,10})\s*$/, '&nbsp;$1'));
+    $(selectors)
+        .not(exceptions)
+        .each(function () {
+          $(this).html($(this).html().replace(/\s([^\s<]{0,10})\s*$/, '&nbsp;$1'));
     });
   };
 
