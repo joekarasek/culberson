@@ -19,8 +19,6 @@
             <h6 class="location-card__map-link underline">Click for map & directions</h6>
         </a>
 
-        {#{% include 'atoms/hours-table.twig' %}#}
-
         {#<h5 class="location-card__welcoming-patients">Now Welcoming New Patients</h5>#}
         <p class="location-card__new-patient-text">New Patient Hotline</p>
         <a href="tel:{{ newPhone }}" class="location-card__new-patient-number">{{ newPhoneNoBreak }}</a>
@@ -32,6 +30,8 @@
 
         <p class="location-card__fax-text">Fax</p>
         <p class="location-card__fax-number">(425) 338-4930</p>
+
+        {% include 'atoms/hours-table.twig' %}
 
     </div>
 </div>

@@ -1,4 +1,8 @@
-#marquee-slider {
+#slider {
+  height: 36.45833vw !important;
+}
+
+#slider {
 
   //.swiper-slide.slide1 {
   //  background-image: url('assets/slide1.jpg');
@@ -65,7 +69,7 @@
     }
   }
 
-  .slide2 {
+  .slide3 {
     .slide__title {
       font-family: $ff-dancing;
       color: #2c2340;
@@ -90,7 +94,7 @@
     }
   }
 
-  .slide3 {
+  .slide2 {
     .title--no-insure {
       color: #016e92;
       margin-bottom: 5px;
@@ -125,14 +129,6 @@
 
   .icon-star3 {
     color: $c-star;
-  }
-
-  .slide-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
   }
 }
 

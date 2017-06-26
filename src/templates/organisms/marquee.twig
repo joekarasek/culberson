@@ -8,49 +8,95 @@
 
 <!-- Marquee Slider
 ============================================= -->
-<section id="marquee-slider" class="hidden-xxs hidden-xs hidden-sm slider-parallax swiper_wrapper clearfix hidden-xs">
-    <div class="swiper-container swiper-parent swiper-container-horizontal">
+{#<section id="slider" class="hidden-xxs hidden-xs hidden-sm slider-parallax swiper_wrapper clearfix hidden-xs">#}
+    {#<div class="swiper-container swiper-parent swiper-container-horizontal">#}
+        {#<div class="swiper-wrapper">#}
+            {#<!--Slide 1-->#}
+            {#<!--=======-->#}
+            {#<div class="swiper-slide swiper-slide-active slide1">#}
+                {#<img src="/assets/slides/culberson-slide1.jpg" alt="{{ doctorName }}">#}
+                {#<div class="container clearfix slide-content slide-content">#}
+                    {#<div class="row">#}
+                        {#<div class="col-sm-6 col-sm-push-6 center">#}
+                            {#<img src="assets/slides/slide1-headline.png" alt="Discover why Mill Creek loves their dentist">#}
+                            {#<h3 class="slide__copy">Now Welcoming New Patients</h3>#}
+                            {#<a href="#" class="btn btn--style-four" data-scrollto="#section-specials" data-offset="80">New Patient Offers</a>#}
+                        {#</div>#}
+                    {#</div>#}
+                {#</div>#}
+            {#</div>#}
+            {#<!--Slide 3-->#}
+            {#<!--=======-->#}
+            {#<div class="swiper-slide slide3">#}
+                {#<img src="/assets/slides/slide2-membership.jpg" alt="older couple with a great smile">#}
+                {#<div class="container clearfix slide-content">#}
+                    {#<div class="row">#}
+                        {#<div class="col-sm-6 col-sm-push-6 center">#}
+                            {#<img src="assets/slides/slide2-headline.png" alt="No Insurance Needed">#}
+                            {#<h3 class="preventative-copy">Get your preventive care<br>for a low monthly fee</h3>#}
+                            {#<a href="#" class="btn btn--style-four" data-offset="80" data-scrollto="#section-insurance">Learn More</a>#}
+                        {#</div>#}
+                    {#</div>#}
+                {#</div>#}
+            {#</div>#}
+            {#<!--Slide 2-->#}
+            {#<!--=======-->#}
+            {#<div class="swiper-slide slide2">#}
+                {#<img src="/assets/slides/slide3-reviews.jpg" alt="Younger couple with a great smile">#}
+                {#<div class="container clearfix slide-content">#}
+                    {#<div class="row">#}
+                        {#<div class="col-sm-6 col-sm-push-6 center">#}
+                            {#<img src="assets/slides/slide3-headline.png" alt="See what patients are saying">#}
+                            {#<div class="stars"><img src="assets/slides/stars.png" alt="five stars"></div>#}
+                            {#<h5 class="copy">“Dr. Culberson and his team are professional and efficient. They do excellent work with no pain in extremely comfortable conditions.” –Justin H.</h5>#}
+                            {#<a href="#" class="btn btn--style-four" data-offset="80" data-scrollto="#section-reviews">Read More Reviews</a>#}
+                        {#</div>#}
+                    {#</div>#}
+                {#</div>#}
+            {#</div>#}
+
+        {#</div>#}
+    {#</div>#}
+<!-- Slider
+            ============================================= -->
+
+<section id="slider" class="hidden-xxs hidden-xs hidden-sm slider-parallax swiper_wrapper clearfix">
+    <div class="swiper-container swiper-parent">
         <div class="swiper-wrapper">
-            <!--Slide 1-->
-            <!--=======-->
-            <div class="swiper-slide swiper-slide-active slide1">
-                <img src="/assets/slides/culberson-slide1.jpg" alt="{{ doctorName }}">
-                <div class="container clearfix slide-content">
-                    <div class="row">
-                        <div class="col-sm-6 col-sm-push-6 center">
-                            <img src="assets/slides/slide1-headline.png" alt="Discover why Mill Creek loves their dentist">
-                            <h3 class="slide__copy">Now Welcoming New Patients</h3>
-                            <a href="#" class="btn btn--style-four" data-scrollto="#section-specials" data-offset="80">New Patient Offers</a>
-                        </div>
+
+            <!-- Slide
+            ============================================= -->
+            <div class="swiper-slide slide1" style="background: url('assets/slides/culberson-slide1.jpg') 50% 50% no-repeat; background-size: cover;">
+                <div class="container clearfix">
+                    <div class="slider-caption slider-caption-right text-center">
+                        <img src="assets/slides/slide1-headline.png" alt="Discover why Mill Creek loves their dentist">
+                        <h3 class="slide__copy">Now Welcoming New Patients</h3>
+                        <a href="#" class="btn btn--style-four" data-scrollto="#section-specials" data-offset="80">New Patient Offers</a>
                     </div>
                 </div>
             </div>
-            <!--Slide 3-->
-            <!--=======-->
-            <div class="swiper-slide slide3">
-                <img src="/assets/slides/slide2-membership.jpg" alt="older couple with a great smile">
-                <div class="container clearfix slide-content">
-                    <div class="row">
-                        <div class="col-sm-6 col-sm-push-6 center">
-                            <img src="assets/slides/slide2-headline.png" alt="No Insurance Needed">
-                            <h3 class="preventative-copy">Get your preventive care<br>for a low monthly fee</h3>
-                            <a href="#" class="btn btn--style-four" data-offset="80" data-scrollto="#section-insurance">Learn More</a>
-                        </div>
+
+            <!-- Slide
+            ============================================= -->
+            <div class="swiper-slide slide2" style="background: url('assets/slides/slide2-membership.jpg') 50% 50% no-repeat; background-size: cover;">
+                <div class="container clearfix">
+                    <div class="slider-caption slider-caption-right text-center">
+                        <img src="assets/slides/slide2-headline.png" alt="No Insurance Needed">
+                        <h3 class="preventative-copy">Get your preventive care<br>for a low monthly fee</h3>
+                        <a href="#" class="btn btn--style-four" data-offset="80" data-scrollto="#section-insurance">Learn More</a>
                     </div>
                 </div>
             </div>
-            <!--Slide 2-->
-            <!--=======-->
-            <div class="swiper-slide slide2">
-                <img src="/assets/slides/slide3-reviews.jpg" alt="Younger couple with a great smile">
+
+            <!-- Slide
+            ============================================= -->
+            <div class="swiper-slide slide3" style="background: url('assets/slides/slide3-reviews.jpg') 50% 50% no-repeat; background-size: cover;">
                 <div class="container clearfix slide-content">
-                    <div class="row">
-                        <div class="col-sm-6 col-sm-push-6 center">
-                            <img src="assets/slides/slide3-headline.png" alt="See what patients are saying">
-                            <div class="stars"><img src="assets/slides/stars.png" alt="five stars"></div>
-                            <h5 class="copy">“Dr. Culberson and his team are professional and efficient. They do excellent work with no pain in extremely comfortable conditions.” –Justin H.</h5>
-                            <a href="#" class="btn btn--style-four" data-offset="80" data-scrollto="#section-reviews">Read More Reviews</a>
-                        </div>
+                    <div class="slider-caption slider-caption-right text-center">
+                        <img src="assets/slides/slide3-headline.png" alt="See what patients are saying">
+                        <div class="stars"><img src="assets/slides/stars.png" alt="five stars"></div>
+                        <h5 class="copy">“Dr. Culberson and his team are professional and efficient. They do excellent work with no pain in extremely comfortable conditions.” –Justin H.</h5>
+                        <a href="#" class="btn btn--style-four" data-offset="80" data-scrollto="#section-reviews">Read More Reviews</a>
                     </div>
                 </div>
             </div>
